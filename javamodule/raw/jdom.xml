@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!--This is my comments-->
+    <hello sohu="www.sohu.com" />
+    <world testAttr="attr Value">
+        <subElement a="aValue" x="xValue" y="yValue">textContent</subElement>
+    </world>
+</root>
+

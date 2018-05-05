@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="数据解析Summary"
+        android:textColor="#666666"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Json解析\njava相关实现\njson-lib(历史悠久，N年未更新，jar包依赖多)\njsonp（web前端相关）\nJson-smart（号称解析速度最快，但使用sample实例少，不易查找开发引用中出现的问题）\norg.json （Android自带，解析效率/速度慢，淘汰）\nother常用：Jackson、gson(google)、fastjson(alibaba)\nMoshi（square）-使用较少，了解部分特效"/>
+
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
